@@ -1,3 +1,10 @@
+## My S3 buckets
+
+- **Public bucket:** [Browse 100 books](https://public-veh6ga.s3.amazonaws.com/index.html)
+- **Private bucket:** `secret-veh6ga` — generate a temporary link using `share_book.sh`.
+
+I use a public bucket when files should be accessible to everyone, such as a collection of books. I use a private bucket with a presigned URL when I want to share one file temporarily without making it publicly accessible.
+
 # Lab 06: Working with S3 Storage
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
